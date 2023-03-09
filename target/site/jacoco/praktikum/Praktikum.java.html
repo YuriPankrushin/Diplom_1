@@ -24,16 +24,19 @@ import java.util.List;
 <span class="nc" id="L24">        burger.addIngredient(ingredients.get(4));</span>
 <span class="nc" id="L25">        burger.addIngredient(ingredients.get(3));</span>
 <span class="nc" id="L26">        burger.addIngredient(ingredients.get(5));</span>
+<span class="nc" id="L27">        System.out.println(burger.getReceipt());</span>
 
         // Переместим слой с ингредиентом
-<span class="nc" id="L29">        burger.moveIngredient(2, 1);</span>
+<span class="nc" id="L30">        burger.moveIngredient(2, 1);</span>
+<span class="nc" id="L31">        System.out.println(burger.getReceipt());</span>
 
         // Удалим ингредиент
-<span class="nc" id="L32">        burger.removeIngredient(3);</span>
+<span class="nc" id="L34">        burger.removeIngredient(3);</span>
+<span class="nc" id="L35">        System.out.println(burger.getReceipt());</span>
 
         // Распечатаем рецепт бургера
-<span class="nc" id="L35">        System.out.println(burger.getReceipt());</span>
-<span class="nc" id="L36">    }</span>
+<span class="nc" id="L38">        System.out.println(burger.getReceipt());</span>
+<span class="nc" id="L39">    }</span>
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
